@@ -104,3 +104,4 @@ D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\obj\De
 D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\obj\Debug\net8.0\api.pdb
 D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\obj\Debug\net8.0\api.genruntimeconfig.cache
 D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\obj\Debug\net8.0\ref\api.dll
+D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\bin\Debug\net8.0\BCrypt.Net-Next.dll

@@ -1,23 +1,25 @@
 using Microsoft.EntityFrameworkCore;
 using ERPBridge.Class;
+using ERPBridge.Services;
+using ERPBridge.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllers();
+// Add services to the container
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 // Add DB Context
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
-// Add Swagger
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// Add Services
+builder.Services.AddScoped<UserService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -25,22 +27,12 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseAuthorization();
-app.MapControllers();
 
-// Migrate database on startup
-using (var scope = app.Services.CreateScope())
-{
-    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    try
-    {
-        dbContext.Database.Migrate();
-        Console.WriteLine("Database migrated successfully!");
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"Error migrating database: {ex.Message}");
-    }
-}
+// Map User Endpoints
+app.MapUserEndpoints();
+
+
 
 app.Run();
+
+app.Urls.Add("https://localhost:5001");
