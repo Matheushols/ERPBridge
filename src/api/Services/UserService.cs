@@ -13,19 +13,25 @@ namespace ERPBridge.Services
             _context = context;
         }
 
-        public async Task<User> CreateUserAsync(CreateUserDto userDto)
+        public async Task<(User? User, string? ErrorMessage)> CreateUserAsync(CreateUserDto userDto)
         {
-            // VocÃª pode adicionar validaÃ§Ãµes adicionais aqui
+            // Check if email already exists
+            bool emailExists = await _context.Users.AnyAsync(u => u.Email == userDto.Email);
+            if (emailExists)
+            {
+                return (null, "Email já foi utilizado");
+            }
+
             var user = new User(
-                userDto.Username, 
-                userDto.Email, 
-                BCrypt.Net.BCrypt.HashPassword(userDto.Password), 
+                userDto.Username,
+                userDto.Email,
+                BCrypt.Net.BCrypt.HashPassword(userDto.Password),
                 userDto.DateOfBirth
             );
 
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
-            return user;
+            return (user, null);
         }
 
         public async Task<User?> GetUserByIdAsync(int id)
@@ -38,17 +44,28 @@ namespace ERPBridge.Services
             return await _context.Users.ToListAsync();
         }
 
-        public async Task<User?> UpdateUserAsync(int id, UpdateUserDto userDto)
+        public async Task<(User? User, string? ErrorMessage)> UpdateUserAsync(int id, UpdateUserDto userDto)
         {
             var user = await _context.Users.FindAsync(id);
-            if (user == null) return null;
+            if (user == null) return (null, "Usuário não encontrado");
 
             user.Username = userDto.Username;
-            if (userDto.Email != null) user.Email = userDto.Email;
+
+            // Check if email is changed and if the new email already exists
+            if (userDto.Email != null && userDto.Email != user.Email)
+            {
+                bool emailExists = await _context.Users.AnyAsync(u => u.Email == userDto.Email);
+                if (emailExists)
+                {
+                    return (null, "Email já foi utilizado");
+                }
+                user.Email = userDto.Email;
+            }
+
             if (userDto.DateOfBirth.HasValue) user.DateOfBirth = userDto.DateOfBirth.Value;
 
             await _context.SaveChangesAsync();
-            return user;
+            return (user, null);
         }
 
         public async Task<bool> DeleteUserAsync(int id)

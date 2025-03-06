@@ -13,7 +13,7 @@ namespace ERPBridge.Endpoints
             group.MapPost("/", CreateUser)
                 .WithName("CreateUser")
                 .Produces<CreatedResult>(201)
-                .Produces(400);
+                .Produces<ProblemDetails>(400);
 
             group.MapGet("/", GetAllUsers)
                 .WithName("GetAllUsers")
@@ -27,6 +27,7 @@ namespace ERPBridge.Endpoints
             group.MapPut("/{id}", UpdateUser)
                 .WithName("UpdateUser")
                 .Produces<User>(200)
+                .Produces<ProblemDetails>(400)
                 .Produces(404);
 
             group.MapDelete("/{id}", DeleteUser)
@@ -36,11 +37,22 @@ namespace ERPBridge.Endpoints
         }
 
         private static async Task<IResult> CreateUser(
-            [FromBody] CreateUserDto userDto, 
+            [FromBody] CreateUserDto userDto,
             UserService userService)
         {
-            var user = await userService.CreateUserAsync(userDto);
-            return Results.CreatedAtRoute("GetUserById", new { id = user.Id }, user);
+            var (user, errorMessage) = await userService.CreateUserAsync(userDto);
+
+            if (errorMessage != null)
+            {
+                return Results.BadRequest(new ProblemDetails
+                {
+                    Title = "Validation Error",
+                    Detail = errorMessage,
+                    Status = StatusCodes.Status400BadRequest
+                });
+            }
+
+            return Results.CreatedAtRoute("GetUserById", new { id = user!.Id }, user);
         }
 
         private static async Task<IResult> GetAllUsers(UserService userService)
@@ -52,27 +64,38 @@ namespace ERPBridge.Endpoints
         private static async Task<IResult> GetUserById(int id, UserService userService)
         {
             var user = await userService.GetUserByIdAsync(id);
-            return user != null 
-                ? Results.Ok(user) 
+            return user != null
+                ? Results.Ok(user)
                 : Results.NotFound();
         }
 
         private static async Task<IResult> UpdateUser(
-            int id, 
-            [FromBody] UpdateUserDto userDto, 
+            int id,
+            [FromBody] UpdateUserDto userDto,
             UserService userService)
         {
-            var updatedUser = await userService.UpdateUserAsync(id, userDto);
-            return updatedUser != null 
-                ? Results.Ok(updatedUser) 
+            var (updatedUser, errorMessage) = await userService.UpdateUserAsync(id, userDto);
+
+            if (errorMessage != null)
+            {
+                return Results.BadRequest(new ProblemDetails
+                {
+                    Title = "Validation Error",
+                    Detail = errorMessage,
+                    Status = StatusCodes.Status400BadRequest
+                });
+            }
+
+            return updatedUser != null
+                ? Results.Ok(updatedUser)
                 : Results.NotFound();
         }
 
         private static async Task<IResult> DeleteUser(int id, UserService userService)
         {
             var result = await userService.DeleteUserAsync(id);
-            return result 
-                ? Results.NoContent() 
+            return result
+                ? Results.NoContent()
                 : Results.NotFound();
         }
     }

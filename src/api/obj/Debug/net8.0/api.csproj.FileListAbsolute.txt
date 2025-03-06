@@ -105,3 +105,11 @@ D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\obj\De
 D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\obj\Debug\net8.0\api.genruntimeconfig.cache
 D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\obj\Debug\net8.0\ref\api.dll
 D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Codando\UdemyCursos\Projects Github\dotNet_ERPBridge\ERPBridge\src\api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

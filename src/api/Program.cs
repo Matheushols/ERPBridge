@@ -31,7 +31,20 @@ app.UseHttpsRedirection();
 // Map User Endpoints
 app.MapUserEndpoints();
 
-
+// Migrate database on startup
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    try
+    {
+        dbContext.Database.Migrate();
+        Console.WriteLine("Database migrated successfully!");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Error migrating database: {ex.Message}");
+    }
+}
 
 app.Run();
 
