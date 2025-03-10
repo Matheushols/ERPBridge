@@ -8,6 +8,10 @@ namespace api.Models
         public int Id { get; set; }
         public string originId { get; set; }
 
+        public int userId { get; set; }
+
+        public string systemName { get; set; }
+
         public string? externalId { get; set; }
         public int externalRetry { get; set; }
 

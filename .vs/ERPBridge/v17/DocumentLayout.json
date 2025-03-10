@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\models\\payabletitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\models\\payabletitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\class\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,40 +43,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "src\\api\\Services\\UserService.cs",
-              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Services\\UserService.cs",
-              "RelativeToolTip": "src\\api\\Services\\UserService.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowFAAAAABAAAA",
+              "Title": "Users.cs",
+              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "src\\api\\Models\\Users.cs",
+              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Models\\Users.cs",
+              "RelativeToolTip": "src\\api\\Models\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T02:46:03.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserEndpoints.cs",
-              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Endpoints\\UserEndpoints.cs",
-              "RelativeDocumentMoniker": "src\\api\\Endpoints\\UserEndpoints.cs",
-              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Endpoints\\UserEndpoints.cs",
-              "RelativeToolTip": "src\\api\\Endpoints\\UserEndpoints.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T02:45:59.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T02:38:10.894Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreateUserDto.cs",
-              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\DTOs\\CreateUserDto.cs",
-              "RelativeDocumentMoniker": "src\\api\\DTOs\\CreateUserDto.cs",
-              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\DTOs\\CreateUserDto.cs",
-              "RelativeToolTip": "src\\api\\DTOs\\CreateUserDto.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwB4AAAABAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\api\\Program.cs",
+              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Program.cs",
+              "RelativeToolTip": "src\\api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T02:45:52.797Z",
+              "WhenOpened": "2025-03-08T02:38:02.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PayableTitle.cs",
+              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Models\\PayableTitle.cs",
+              "RelativeDocumentMoniker": "src\\api\\Models\\PayableTitle.cs",
+              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Models\\PayableTitle.cs",
+              "RelativeToolTip": "src\\api\\Models\\PayableTitle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T02:37:39.967Z",
               "EditorCaption": ""
             },
             {
@@ -89,8 +87,7 @@
               "RelativeToolTip": "src\\api\\Class\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T02:45:51.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T02:45:51.263Z"
             }
           ]
         }
