@@ -16,6 +16,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // Add Services
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<PayableTitleService>(); // Adicione esta linha
 
 var app = builder.Build();
 
@@ -28,8 +29,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Map User Endpoints
+// Map Endpoints
 app.MapUserEndpoints();
+app.MapPayableTitleEndpoints(); // Adicione esta linha
 
 // Migrate database on startup
 using (var scope = app.Services.CreateScope())
@@ -47,5 +49,3 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.Run();
-
-app.Urls.Add("https://localhost:5001");

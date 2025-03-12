@@ -1,3 +1,4 @@
+using api.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ERPBridge.Class
@@ -9,6 +10,7 @@ namespace ERPBridge.Class
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<PayableTitle> PayableTitles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
