@@ -5,34 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\class\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\class\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\services\\payabletitleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\services\\payabletitleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\endpoints\\payabletitleendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\endpoints\\payabletitleendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\models\\payabletitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\models\\payabletitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\dtos\\payabletitledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\dtos\\payabletitledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|d:\\codando\\udemycursos\\projects github\\dotnet_erpbridge\\erpbridge\\src\\api\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\api\\api.csproj|solutionrelative:src\\api\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,73 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Class\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "src\\api\\Class\\AppDbContext.cs",
-              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Class\\AppDbContext.cs",
-              "RelativeToolTip": "src\\api\\Class\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T02:54:51.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PayableTitleService.cs",
-              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Services\\PayableTitleService.cs",
-              "RelativeDocumentMoniker": "src\\api\\Services\\PayableTitleService.cs",
-              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Services\\PayableTitleService.cs",
-              "RelativeToolTip": "src\\api\\Services\\PayableTitleService.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAAAGEAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T02:54:24.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\api\\Program.cs",
-              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Program.cs",
-              "RelativeToolTip": "src\\api\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAACgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T02:52:30.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PayableTitle.cs",
-              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Models\\PayableTitle.cs",
-              "RelativeDocumentMoniker": "src\\api\\Models\\PayableTitle.cs",
-              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Models\\PayableTitle.cs",
-              "RelativeToolTip": "src\\api\\Models\\PayableTitle.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAcwBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T02:49:08.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PayableTitleEndpoints.cs",
-              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Endpoints\\PayableTitleEndpoints.cs",
-              "RelativeDocumentMoniker": "src\\api\\Endpoints\\PayableTitleEndpoints.cs",
-              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Endpoints\\PayableTitleEndpoints.cs",
-              "RelativeToolTip": "src\\api\\Endpoints\\PayableTitleEndpoints.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAiwGcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T02:47:44.027Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -123,41 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PayableTitleDto.cs",
-              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\DTOs\\PayableTitleDto.cs",
-              "RelativeDocumentMoniker": "src\\api\\DTOs\\PayableTitleDto.cs",
-              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\DTOs\\PayableTitleDto.cs",
-              "RelativeToolTip": "src\\api\\DTOs\\PayableTitleDto.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAcwDYAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\api\\Program.cs",
+              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Program.cs",
+              "RelativeToolTip": "src\\api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T02:47:45.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserEndpoints.cs",
-              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Endpoints\\UserEndpoints.cs",
-              "RelativeDocumentMoniker": "src\\api\\Endpoints\\UserEndpoints.cs",
-              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Endpoints\\UserEndpoints.cs",
-              "RelativeToolTip": "src\\api\\Endpoints\\UserEndpoints.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAqwCYAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T02:46:16.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Users.cs",
-              "DocumentMoniker": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "src\\api\\Models\\Users.cs",
-              "ToolTip": "D:\\Codando\\UdemyCursos\\Projects Github\\dotNet_ERPBridge\\ERPBridge\\src\\api\\Models\\Users.cs",
-              "RelativeToolTip": "src\\api\\Models\\Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T02:38:10.894Z",
+              "WhenOpened": "2025-03-12T02:52:30.688Z",
               "EditorCaption": ""
             }
           ]
